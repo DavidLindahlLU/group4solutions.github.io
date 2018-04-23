@@ -1,0 +1,301 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #696969;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#pageHeader
+{
+   background-color: #000000;
+   background-image: none;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 0px 0px 0px 0px;
+}
+#Heading1
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+}
+#ContactAbout
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   font-style: normal;
+}
+#ContactAbout .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#ContactAbout.ui-corner-all
+{
+   -webkit-border-bottom-left-radius: 0px;
+   -moz-border-bottom-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+   -webkit-border-top-left-radius: 0px;
+   -moz-border-top-left-radius: 0px;
+   border-top-left-radius: 0px;
+}
+#ContactAbout.ui-corner-all
+{
+   -webkit-border-bottom-right-radius: 0px;
+   -moz-border-bottom-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   -webkit-border-top-right-radius: 0px;
+   -moz-border-top-right-radius: 0px;
+   border-top-right-radius: 0px;
+}
+#ContactAbout.ui-button
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid #000000;
+   color: #F6F6F6;
+}
+#ContactAbout.ui-state-hover, #ContactAbout.ui-button:hover
+{
+   border-color: #101010;
+   background-color: transparent;
+   background-image: none;
+   color: #FFFFFF;
+}
+#ContactAbout.ui-state-active, #ContactAbout.ui-button:active
+{
+   border-color: #000000;
+   background-color: transparent;
+   background-image: none;
+   color: #3370B7;
+}
+#ContactAbout.ui-button .ui-icon
+{
+   background-image: url(images/startpage-ContactAbout-default.png);
+   background-position: 0 0;
+}
+#ContactAbout.ui-button:hover .ui-icon
+{
+   background-image: url(images/startpage-ContactAbout-hover.png);
+   background-position: 0 0;
+}
+#ContactAbout.ui-button:active .ui-icon
+{
+   background-image: url(images/startpage-ContactAbout-active.png);
+   background-position: 0 0;
+}
+#wb_CopyrightText 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px transparent solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_CopyrightText div
+{
+   text-align: left;
+}
+#WriteReview
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   font-style: normal;
+}
+#wb_WriteReview .ui-button
+{
+   padding: 0;
+   line-height: 65px;
+}
+#WriteReview
+{
+   color: #454545;
+   text-decoration: none;
+}
+#WriteReview :hover
+{
+   color: #2B2B2B;
+}
+#WriteReview :active
+{
+   color: #FFFFFF;
+}
+#wb_WriteReview .ui-corner-all, #wb_WriteReview .ui-corner-left
+{
+   -webkit-border-bottom-left-radius: 6px;
+   -moz-border-bottom-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   -webkit-border-top-left-radius: 6px;
+   -moz-border-top-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#wb_WriteReview .ui-corner-all, #wb_WriteReview .ui-corner-right
+{
+   -webkit-border-bottom-right-radius: 6px;
+   -moz-border-bottom-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   -webkit-border-top-right-radius: 6px;
+   -moz-border-top-right-radius: 6px;
+   border-top-right-radius: 6px;
+}
+#wb_WriteReview .ui-button
+{
+   background-color: #808080;
+   background-image: none;
+   border: 1px solid #808080;
+   color: #F6F6F6;
+}
+#wb_WriteReview .ui-state-hover, #wb_WriteReview .ui-button:hover
+{
+   border-color: #808080;
+   background-color: #808080;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_WriteReview .ui-state-active, #wb_WriteReview .ui-button:active
+{
+   border-color: #808080;
+   background-color: #808080;
+   background-image: none;
+   color: #3370B7;
+}
+#wb_WriteReview .ui-button .ui-icon
+{
+   background-image: url(images/startpage-WriteReview-default.png);
+   background-position: 0 0;
+}
+#wb_WriteReview .ui-button:hover .ui-icon
+{
+   background-image: url(images/startpage-WriteReview-hover.png);
+   background-position: 0 0;
+}
+#wb_WriteReview .ui-button:active .ui-icon
+{
+   background-image: url(images/startpage-WriteReview-active.png);
+   background-position: 0 0;
+}
+#ReadReviews
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   font-style: normal;
+}
+#wb_ReadReviews .ui-button
+{
+   padding: 0;
+   line-height: 65px;
+}
+#ReadReviews
+{
+   color: #454545;
+   text-decoration: none;
+}
+#ReadReviews :hover
+{
+   color: #2B2B2B;
+}
+#ReadReviews :active
+{
+   color: #FFFFFF;
+}
+#wb_ReadReviews .ui-corner-all, #wb_ReadReviews .ui-corner-left
+{
+   -webkit-border-bottom-left-radius: 6px;
+   -moz-border-bottom-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   -webkit-border-top-left-radius: 6px;
+   -moz-border-top-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#wb_ReadReviews .ui-corner-all, #wb_ReadReviews .ui-corner-right
+{
+   -webkit-border-bottom-right-radius: 6px;
+   -moz-border-bottom-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   -webkit-border-top-right-radius: 6px;
+   -moz-border-top-right-radius: 6px;
+   border-top-right-radius: 6px;
+}
+#wb_ReadReviews .ui-button
+{
+   background-color: #808080;
+   background-image: none;
+   border: 1px solid #808080;
+   color: #F6F6F6;
+}
+#wb_ReadReviews .ui-state-hover, #wb_ReadReviews .ui-button:hover
+{
+   border-color: #808080;
+   background-color: #808080;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_ReadReviews .ui-state-active, #wb_ReadReviews .ui-button:active
+{
+   border-color: #808080;
+   background-color: #808080;
+   background-image: none;
+   color: #3370B7;
+}
+#wb_ReadReviews .ui-button .ui-icon
+{
+   background-image: url(images/startpage-ReadReviews-default.png);
+   background-position: 0 0;
+}
+#wb_ReadReviews .ui-button:hover .ui-icon
+{
+   background-image: url(images/startpage-ReadReviews-hover.png);
+   background-position: 0 0;
+}
+#wb_ReadReviews .ui-button:active .ui-icon
+{
+   background-image: url(images/startpage-ReadReviews-active.png);
+   background-position: 0 0;
+}
+#wb_Heading2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 0px 0px 0px 0px;
+}
+#Heading2
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+}
+#pageFooter
+{
+   background-color: #000000;
+   background-image: none;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
